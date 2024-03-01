@@ -145,3 +145,56 @@ header a:hover {
 .link-button:hover {
     transform: translate(1px, 1px);
 }
+
+/***VANS PAGE ****/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 34px;
+    margin-top: 57px;
+
+}
+
+.card--img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card--title {
+    color: #161616;
+    text-decoration: none;
+}
+
+.card--content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.card--type {
+    height: 34px;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD0;
+    color: #4D4D4D;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.card--type:hover {
+    color: #FFEAD0;
+}
+
+.card--type:focus {
+    outline: none;
+}
+
+.card--type.selected {
+    color: #FFEAD0;
+}
