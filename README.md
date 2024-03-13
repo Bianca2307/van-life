@@ -1,8 +1,6 @@
-# React + Vite
+#VanLife
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Van Life is a web application built in by using React, HTML,CSS. It's an application that lets users to rent a camp van for their next trip.
+This application is focusing on React Router 6, having over 10 routes, nested routes and protected routes. Also, it's using Firebase Database.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+So, let's see:
